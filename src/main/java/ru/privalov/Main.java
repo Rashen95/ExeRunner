@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        while(true) {
+        while (true) {
             System.out.print("Запускаем рабочие программы? (Y/N): ");
             String command = s.next().strip();
             if (command.equalsIgnoreCase("Y")) {
